@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="page">
+    <!--主体-->
+    <view class="page__bd" style="padding: 14px;">
+        <view style="width: 100%;background-color: #0bb20c;border-radius: 8px;box-shadow: 3px;">
+            <view>
+                <view></view>
+                <view></view>
+            </view>
+            <view style="border-top: 1px solid #ececec;padding: 16px 0;text-align: center; ">
+                <view>0/33</view>
+                <view>健康管理</view>
+            </view>
+        </view>
+    </view>
+    <!--没有页脚-->
+</view>

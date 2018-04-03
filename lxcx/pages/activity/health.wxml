@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="section">
+        <button open-type="contact" bindtap="uploadImage">上传图片</button>
+    </view>
+</view>

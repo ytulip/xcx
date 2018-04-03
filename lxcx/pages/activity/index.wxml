@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="section">
+      <input placeholder="手机号" type="number" bindinput="bindPhoneInput" maxlength="11" auto-focus/>
+    </view>
+    <view class="section">
+       <input placeholder="姓名" auto-focus/>
+     </view>
+     <view class="section">
+            <input placeholder="身份证号"  type="idcard" auto-focus/>
+     </view>
+     <view class="section">
+             <input placeholder="验证码"  type="number" maxlength="6"  bindinput="bindSmsCode" auto-focus/>
+             <button open-type="contact" bindtap="testTap">获得验证码</button>
+      </view>
+
+      <view class="section">
+          <button open-type="primary" style="width:100%;" bindtap="takePartIn">下一步</button>
+      </view>
+
+</view>

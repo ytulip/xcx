@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="userinfo">
+      <button open-type="contact" bindtap="takePart">参加活动</button>
+     <button open-type="contact" bindtap="pay">去支付</button>
+  </view>
+  <view class="usermotto">
+  </view>
+</view>

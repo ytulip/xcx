@@ -1,0 +1,10 @@
+/**index.wxss**/
+page {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+input{ border-bottom:1px solid #d6d6d6;padding:.4rem;text-align:center; }
